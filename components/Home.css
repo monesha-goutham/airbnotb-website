@@ -1,0 +1,12 @@
+.home__section {
+	margin: 0 auto;
+	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 600px) {
+	.home__section {
+		display: block;
+	}
+}

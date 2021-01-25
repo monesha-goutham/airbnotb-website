@@ -1,0 +1,42 @@
+.search {
+	position: absolute;
+	top: 36px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 999;
+
+	background-color: white;
+}
+
+.search > h2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 15px;
+}
+
+.search > input {
+	outline-width: 0;
+	border: none;
+	padding: 10px 15px;
+	/* background-color: khaki; */
+
+	width: 332px;
+	display: block;
+}
+
+.search > button {
+	background-color: #ff7776;
+	color: white;
+	width: 332px;
+	text-transform: inherit;
+	letter-spacing: 1.5px !important;
+	font-weight: 700 !important;
+	transition: all 0.3s ease;
+}
+
+.search > button:hover {
+	background-color: white;
+	color: #ff7779;
+	transition: all 0.3s ease;
+}
